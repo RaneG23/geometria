@@ -6,7 +6,12 @@ public class Circulo_JB extends FiguraGeometrica_JB {
 	
 	public Circulo_JB(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		if (radio < 0) {
+			radio = r * -1;
+		}
+		else {
+			radio = r;
+		}
 	}
 
 	@Override
