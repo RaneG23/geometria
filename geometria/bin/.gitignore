@@ -1,8 +1,7 @@
-/Circulo.class
-/FiguraGeometrica.class
-/Rectangulo.class
-/Triangulo.class
+/geometria/
+/test/
 /Circulo_JB.class
 /FiguraGeometrica_JB.class
 /Rectangulo_JB.class
 /Triangulo_JB.class
+/Circulo_JBTest.class
